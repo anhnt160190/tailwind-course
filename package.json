@@ -1,0 +1,12 @@
+{
+  "name": "tailwind-course",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build:css": "tailwindcss build src/style.css -o public/style.css"
+  },
+  "devDependencies": {
+    "tailwindcss": "^1.9.6"
+  }
+}
